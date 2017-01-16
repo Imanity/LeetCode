@@ -28,5 +28,6 @@ int main() {
 	for (unsigned int i = 0; i < result.size(); ++i) {
 		cout << result[i] << "\t";
 	}
+	cin.get();
 	return 0;
 }
