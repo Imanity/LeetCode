@@ -12,7 +12,7 @@ public:
 			return s;
 		}
 		int len = 2 * numRows - 2;
-		vector<char> *charArray = new vector<char>[len / 2 + 1];
+		vector< vector<char> > charArray(len / 2 + 1);
 		for (int i = 0; i < s.size(); ++i) {
 			charArray[len / 2 - abs(i % len - len / 2)].push_back(s[i]);
 		}
@@ -25,6 +25,7 @@ public:
 
 int main() {
 	Solution sol;
-	cout << sol.convert("A", 1);
+	cout << sol.convert("PAYPALISHIRING", 3);
+	cin.get();
 	return 0;
 }

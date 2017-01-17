@@ -44,6 +44,7 @@ public:
 
 int main() {
 	Solution sol;
-	cout << sol.longestPalindrome("bb") << endl;
+	cout << sol.longestPalindrome("babad") << endl;
+	cin.get();
 	return 0;
 }

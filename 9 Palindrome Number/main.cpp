@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <limits.h>
 using namespace std;
 
 class Solution {
@@ -31,6 +32,7 @@ public:
 
 int main() {
 	Solution sol;
-	cout << sol.isPalindrome(10) << endl;
+	cout << sol.isPalindrome(101) << endl;
+	cin.get();
 	return 0;
 }

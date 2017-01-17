@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <limits.h>
 using namespace std;
 
 class Solution {
@@ -39,5 +40,6 @@ public:
 int main() {
 	Solution sol;
 	cout << sol.myAtoi("010") << endl;
+	cin.get();
 	return 0;
 }

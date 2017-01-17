@@ -26,5 +26,6 @@ public:
 int main() {
 	Solution sol;
 	cout << sol.lengthOfLongestSubstring("abcabcbb");
+	cin.get();
 	return 0;
 }

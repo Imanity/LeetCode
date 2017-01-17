@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <limits.h>
 using namespace std;
 
 class Solution {
@@ -23,5 +24,6 @@ public:
 int main() {
 	Solution sol;
 	cout << sol.reverse(-2147483412) << endl;
+	cin.get();
 	return 0;
 }

@@ -55,5 +55,16 @@ public:
 };
 
 int main() {
+	ListNode *l1 = new ListNode(1);
+	ListNode *l2 = new ListNode(2);
+	ListNode *l3 = new ListNode(3);
+	l3->next = l2;
+	Solution s;
+	ListNode *p = s.addTwoNumbers(l1, l3);
+	while (p != NULL) {
+		cout << p->val << "\t";
+		p = p->next;
+	}
+	cin.get();
 	return 0;
 }
