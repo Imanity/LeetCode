@@ -3,6 +3,18 @@
     "files.associations": {
         "string": "cpp",
         "unordered_map": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "iostream": "cpp",
+        "*h*h*h*hdeque": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "array": "cpp",
+        "*h*h*h*hhash_map": "cpp",
+        "hash_map": "cpp",
+        "*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpprope": "cpp",
+        "slist": "cpp",
+        "valarray": "cpp"
     }
 }
