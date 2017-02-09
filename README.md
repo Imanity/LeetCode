@@ -8,3 +8,5 @@
 - [Question 21-30](/Sol 21-30.md)
 
 - [Question 31-40](/Sol 31-40.md)
+
+- [Question 41-50](/Sol 41-50.md)
