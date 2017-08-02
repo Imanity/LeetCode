@@ -45,6 +45,7 @@
         "*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*h*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpp*hpprope": "cpp",
         "future": "cpp",
         "mutex": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "sstream": "cpp"
     }
 }
