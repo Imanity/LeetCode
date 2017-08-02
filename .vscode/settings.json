@@ -46,6 +46,7 @@
         "future": "cpp",
         "mutex": "cpp",
         "thread": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "limits": "cpp"
     }
 }
