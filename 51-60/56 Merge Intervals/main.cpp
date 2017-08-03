@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 struct Interval {
@@ -9,9 +10,31 @@ struct Interval {
     Interval(int s, int e) : start(s), end(e) {}
 };
 
+bool compareStart(const Interval &i, const Interval &j) {
+    return i.start < j.start;
+}
+
 class Solution {
 public:
     vector<Interval> merge(vector<Interval>& intervals) {
+        sort(intervals.begin(), intervals.end(), compareStart);
+        vector<Interval>::iterator i = intervals.begin();
+        vector<Interval>::iterator j = intervals.begin();
+        while (i != intervals.end()) {
+            j = i + 1;
+            if (j == intervals.end()) {
+                break;
+            }
+            while (j != intervals.end()) {
+                if ((*i).end >= (*j).start) {
+                    (*i).end = (*j).end > (*i).end ? (*j).end : (*i).end;
+                    j = intervals.erase(j);
+                } else {
+                    i = j;
+                    break;
+                }
+            }
+        }
         return intervals;
     }
 };
