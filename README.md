@@ -10,3 +10,7 @@
 - [Question 31-40](https://github.com/Imanity/LeetCode/blob/master/Sol%2031-40.md)
 
 - [Question 41-50](https://github.com/Imanity/LeetCode/blob/master/Sol%2041-50.md)
+
+- [Question 51-60](https://github.com/Imanity/LeetCode/blob/master/Sol%2051-60.md)
+
+- [Question 61-70](https://github.com/Imanity/LeetCode/blob/master/Sol%2061-70.md)
