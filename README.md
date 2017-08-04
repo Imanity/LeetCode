@@ -14,3 +14,5 @@
 - [Question 51-60](https://github.com/Imanity/LeetCode/blob/master/Sol%2051-60.md)
 
 - [Question 61-70](https://github.com/Imanity/LeetCode/blob/master/Sol%2061-70.md)
+
+- [Question 71-80](https://github.com/Imanity/LeetCode/blob/master/Sol%2071-80.md)
