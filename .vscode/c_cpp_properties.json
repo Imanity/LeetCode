@@ -35,14 +35,14 @@
         {
             "name": "Win32",
             "includePath": [
-                "D:/mingw/lib/gcc/mingw32/4.8.1/include/c++",
+                "D:/Environment/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
                 "${workspaceRoot}"
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": "",
                 "path": [
-                    "D:/mingw/lib/gcc/mingw32/4.8.1/include/c++",
+                    "D:/Environment/MinGW/lib/gcc/mingw32/6.3.0/include/c++",
                     "${workspaceRoot}"
                 ]
             },

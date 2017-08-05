@@ -47,6 +47,18 @@
         "mutex": "cpp",
         "thread": "cpp",
         "sstream": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "*.tcc": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstring": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "new": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
     }
 }
