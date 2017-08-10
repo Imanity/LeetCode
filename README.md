@@ -18,3 +18,5 @@
 - [Question 71-80](https://github.com/Imanity/LeetCode/blob/master/Sol%2071-80.md)
 
 - [Question 81-90](https://github.com/Imanity/LeetCode/blob/master/Sol%2081-90.md)
+
+- [Question 91-100](https://github.com/Imanity/LeetCode/blob/master/Sol%2091-100.md)
