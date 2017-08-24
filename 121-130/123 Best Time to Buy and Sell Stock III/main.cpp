@@ -7,15 +7,20 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        int profit = 0;
-        for (int i = 1; i < prices.size(); ++i) {
-            if (prices[i] - prices[i - 1] > 0) {
-                profit += (prices[i] - prices[i - 1]);
-            }
+        int states[2][4] = {INT_MIN, 0, INT_MIN, 0};
+        int len = prices.size(), i, cur = 0, next =1;
+        for(i=0; i<len; ++i)
+        {
+            states[next][0] = max(states[cur][0], -prices[i]);
+            states[next][1] = max(states[cur][1], states[cur][0] + prices[i]);
+            states[next][2] = max(states[cur][2], states[cur][1] - prices[i]);
+            states[next][3] = max(states[cur][3], states[cur][2] + prices[i]);
+            swap(next, cur);
         }
-        return profit;
+        return max(states[cur][1], states[cur][3]);
     }
 };
+
 
 int main() {
     int price[] = { 7, 1, 5, 3, 6, 4 };
