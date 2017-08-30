@@ -26,3 +26,5 @@
 - [Question 111-120](https://github.com/Imanity/LeetCode/blob/master/Sol%20111-120.md)
 
 - [Question 121-130](https://github.com/Imanity/LeetCode/blob/master/Sol%20121-130.md)
+
+- [Question 131-140](https://github.com/Imanity/LeetCode/blob/master/Sol%20131-140.md)
