@@ -1,5 +1,5 @@
 # LeetCode
-要没学上了T T。。。刷题ing
+考完了, 停更=.=
 
 - [Question 1-10](https://github.com/Imanity/LeetCode/blob/master/Sol%201-10.md)
 
